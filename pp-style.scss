@@ -1,0 +1,55 @@
+$brown: #582A13;
+$highlight: #990000;
+$shadow: #DFB487;
+
+* {
+    padding: 0;
+    margin: 0;
+    color: $brown;
+    text-shadow: $shadow 1px 1px 2px;
+}
+body {
+    overflow: hidden;
+}
+#monogram {
+    color: #fff;
+    font-family: 'Gill Sans', 'Cantarell', Helvetica, sans;
+    font-size: 56px;
+    padding: 50px 0 0 0;
+    margin: 0px auto auto 50px;
+}
+#about {
+    font-family: 'Cantarell', Helvetica, sans;
+    font-size: 18px;
+    line-height: 24px;
+    width: 360px;
+    padding: 40px 50px 50px;
+    margin: auto 100px auto auto;
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.7);
+    
+    box-shadow: 2px 2px 4px $shadow;
+    -moz-box-shadow: 2px 2px 4px $shadow;
+    -webkit-box-shadow: 2px 2px 4px $shadow;
+
+    p {
+        position: relative;
+        z-index: 200;
+        margin-bottom: 22px;
+    }
+    p:last-child {
+        margin-bottom: 0;
+    }
+    a {
+        text-decoration: none;
+        border-bottom: 1px dotted $brown;
+    }
+    a:hover {
+        color: $highlight;
+        border-bottom: 1px solid $highlight;
+    }
+    span {
+        font-weight: bold;
+    }
+    
+}
