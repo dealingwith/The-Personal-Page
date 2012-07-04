@@ -1,11 +1,16 @@
 * {
   padding: 0;
   margin: 0;
-  color: #582a13;
-  text-shadow: #dfb487 1px 1px 2px; }
+  color: #ffff00;
+  text-shadow: white 1px 1px 2px; }
 
 body {
-  overflow: hidden; }
+  background: #fffff0; }
+
+.img_container {
+  float: left;
+  height: 161px;
+  width: 161px; }
 
 #monogram {
   color: #fff;
@@ -14,29 +19,18 @@ body {
   padding: 50px 0 0 0;
   margin: 0px auto auto 50px; }
 
-#about {
+#about p {
   font-family: 'Cantarell', Helvetica, sans;
-  font-size: 18px;
-  line-height: 24px;
-  width: 360px;
-  padding: 40px 50px 50px;
-  margin: auto 100px auto auto;
-  border: 1px solid rgba(255, 255, 255, 0.9);
-  background: rgba(255, 255, 255, 0.7);
-  box-shadow: 2px 2px 4px #dfb487;
-  -moz-box-shadow: 2px 2px 4px #dfb487;
-  -webkit-box-shadow: 2px 2px 4px #dfb487; }
-  #about p {
-    position: relative;
-    z-index: 200;
-    margin-bottom: 22px; }
-  #about p:last-child {
-    margin-bottom: 0; }
-  #about a {
-    text-decoration: none;
-    border-bottom: 1px dotted #582a13; }
-  #about a:hover {
-    color: #990000;
-    border-bottom: 1px solid #990000; }
-  #about span {
-    font-weight: bold; }
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 22px; }
+#about p:last-child {
+  margin-bottom: 0; }
+#about a {
+  font-weight: bold;
+  text-decoration: none; }
+#about a:hover {
+  color: #990000;
+  border-bottom: 1px solid #990000; }
+#about span {
+  font-weight: bold; }

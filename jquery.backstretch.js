@@ -36,7 +36,7 @@
             // Prepend image, wrapped in a DIV, with some positioning and zIndex voodoo
             if(src) {
                 var container = $("<div />").attr("id", settings.newElem)
-                                            .css({left: 0, top: 0, position: settings.position, overflow: "hidden", zIndex: settings.zIn}),
+                                            .css({left: 100, top: 100, right: 100, bottom: 100, position: settings.position, overflow: "hidden", zIndex: settings.zIn}),
                     img = $("<img />").css({position: "relative", display: "none"})
                                       .bind("load", function(e) {                                          
                                           var self = $(this);
